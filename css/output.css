@@ -117,7 +117,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-custom {
   background-color: #222222;
-  border-color: transparent; }
+  border-color: transparent;
+  text-shadow: 2px 2px black; }
   .navbar-custom .navbar-brand {
     color: #f25757;
     font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive; }
@@ -174,10 +175,11 @@ h1, h2, h3, h4, h5, h6 {
     .navbar-custom.affix .navbar-brand {
       font-size: 1.5em; } }
 header {
-  background-image: url("../img/lake_crescent.jpg");
+  background-image: url("../img/shoes_apple.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
+  background-size: auto 500px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -192,14 +194,16 @@ header {
       font-style: italic;
       font-size: 22px;
       line-height: 22px;
-      margin-bottom: 25px; }
+      margin-bottom: 25px;
+      text-shadow: 2px 2px black; }
     header .intro-text .intro-heading {
       font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
       text-transform: uppercase;
       font-weight: 700;
       font-size: 50px;
       line-height: 50px;
-      margin-bottom: 25px; }
+      margin-bottom: 25px;
+      text-shadow: 4px 4px black; }
 
 @media (min-width: 768px) {
   header .intro-text {

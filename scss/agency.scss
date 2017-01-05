@@ -87,6 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-custom {
     background-color: $gray-darker;
     border-color: transparent;
+    text-shadow: 2px 2px black;
     .navbar-brand {
         color: $theme-primary;
         @include script-font;
@@ -171,10 +172,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    background-image: url('../img/lake_crescent.jpg');
+    background-image: url('../img/shoes_apple.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
+    background-size: auto 500px;
     @include background-cover;
     text-align: center;
     color: white;
@@ -187,6 +189,8 @@ header {
             font-size: 22px;
             line-height: 22px;
             margin-bottom: 25px;
+            text-shadow: 2px 2px black;
+
         }
         .intro-heading {
             @include heading-font;
@@ -194,6 +198,7 @@ header {
             font-size: 50px;
             line-height: 50px;
             margin-bottom: 25px;
+            text-shadow: 4px 4px black;
         }
     }
 }
