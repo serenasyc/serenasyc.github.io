@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-custom {
   background-color: #222222;
   border-color: transparent;
-  text-shadow: 2px 2px black; }
+  text-shadow: -1px -1px 3 #000, 1px -1px 3 #000, -1px 1px 3 #000, 1px 1px 3 #000; }
   .navbar-custom .navbar-brand {
     color: #f25757;
     font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive; }
@@ -188,22 +188,21 @@ header {
   color: white; }
   header .intro-text {
     padding-top: 100px;
-    padding-bottom: 50px; }
+    padding-bottom: 50px;
+    text-shadow: 0px 0px 5px black; }
     header .intro-text .intro-lead-in {
       font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-style: italic;
       font-size: 22px;
       line-height: 22px;
-      margin-bottom: 25px;
-      text-shadow: 2px 2px black; }
+      margin-bottom: 25px; }
     header .intro-text .intro-heading {
       font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
       text-transform: uppercase;
       font-weight: 700;
       font-size: 50px;
       line-height: 50px;
-      margin-bottom: 25px;
-      text-shadow: 4px 4px black; }
+      margin-bottom: 25px; }
 
 @media (min-width: 768px) {
   header .intro-text {
@@ -448,10 +447,10 @@ section#contact {
   background-image: url("../img/glass_ceiling.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-blend-mode: luminosity; }
+  background-size: 100%; }
   section#contact .section-heading {
-    color: white; }
+    color: white;
+    text-shadow: 0 0 5px black; }
   section#contact .form-group {
     margin-bottom: 25px; }
     section#contact .form-group input,
