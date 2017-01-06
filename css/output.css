@@ -445,12 +445,12 @@ aside.clients img {
 section#contact {
   background-color: #222222;
   background-image: url("../img/glass_ceiling.jpg");
+  background-blend-mode: luminosity;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%; }
   section#contact .section-heading {
-    color: white;
-    text-shadow: 0 0 5px black; }
+    background-color: white; }
   section#contact .form-group {
     margin-bottom: 25px; }
     section#contact .form-group input,
