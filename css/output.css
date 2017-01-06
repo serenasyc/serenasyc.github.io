@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-custom {
   background-color: #222222;
   border-color: transparent;
-  text-shadow: -1px -1px 3 #000, 1px -1px 3 #000, -1px 1px 3 #000, 1px 1px 3 #000; }
+  text-shadow: -1px -1px 2px #000, 1px -1px 2px #000, -1px 1px 2px #000, 1px 1px 2px #000; }
   .navbar-custom .navbar-brand {
     color: #f25757;
     font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive; }
