@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
     .navbar-custom.affix .navbar-brand {
       font-size: 1.5em; } }
 header {
-  background-image: url("../img/shoes_apple.jpg");
+  background-image: url("../img/backgrounds/shoes_apple.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -444,7 +444,7 @@ aside.clients img {
 
 section#contact {
   background-color: #222222;
-  background-image: url("../img/glass_ceiling.jpg");
+  background-image: url("../img/backgrounds/glass_ceiling.jpg");
   background-blend-mode: luminosity;
   background-position: center;
   background-repeat: no-repeat;
