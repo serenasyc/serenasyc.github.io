@@ -609,4 +609,8 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #61e8e1; }
 
+.mySlides {
+  margin-left: auto;
+  margin-right: auto; }
+
 /*# sourceMappingURL=output.css.map */

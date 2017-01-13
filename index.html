@@ -135,6 +135,22 @@
                         <p class="text-muted">constraint programming</p>
                     </div>
                 </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#comics" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <center>
+                            <i class="fa fa-pencil-square-o fa-5x"></i>
+                        </center>
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Comics</h4>
+                        <p class="text-muted">published in The Peak</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -376,6 +392,68 @@ Basically, you have a set of pizzas, each with a price, and a set of vouchers, e
 </p><p>
 The <a href="https://github.com/serenasychan/logic_programming/blob/master/PizzaProblem.idp">problem specification</a> is written for the IDP system,  a knowledge base system for an extension of first order logic. It can be run with the <a href="http://adams.cs.kuleuven.be/idp/server.html">IDP Web-IDE</a>.
 </p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- OptimizingCost -->
+    <div class="portfolio-modal modal fade" id="comics" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Comics</h2>
+                                <p class="item-intro text-muted">Here are some comics published in The Peak</p>
+
+                                <div class="container">
+                          
+                                        <a class="btn btn-lg" onclick="plusDivs(-1)"><i class="fa fa-toggle-left fa-5x"></i></a>
+                                  
+                                    <div class="col-md-10">
+                                        <img class="mySlides" src="img/comics/siri.jpeg">
+                                        <img class="mySlides" src="img/comics/fish.png" style="width:100%">
+                                        <img class="mySlides" src="img/comics/safety.jpg">
+                                        <img class="mySlides" src="img/comics/death.jpg" style="width: 100%"> 
+                                    </div>
+                                   
+                                        <a class="btn btn-lg" onclick="plusDivs(1)"><i class="fa fa-toggle-right fa-5x"></i></a>
+                                   
+                                </div>
+                                <script type="text/javascript">
+                                        var slideIndex = 1;
+                                        showDivs(slideIndex);
+
+                                        function plusDivs(n) {
+                                          showDivs(slideIndex += n);
+                                        }
+
+                                        function showDivs(n) {
+                                          var i;
+                                          var x = document.getElementsByClassName("mySlides");
+                                          if (n > x.length) {slideIndex = 1}    
+                                          if (n < 1) {slideIndex = x.length}
+                                          for (i = 0; i < x.length; i++) {
+                                             x[i].style.display = "none";  
+                                          }
+                                          x[slideIndex-1].style.display = "block";  
+                                        }
+                                </script>
+
+
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
