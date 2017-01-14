@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-custom {
   background-color: #222222;
   border-color: transparent;
-  text-shadow: -1px -1px 2px #000, 1px -1px 2px #000, -1px 1px 2px #000, 1px 1px 2px #000; }
+  text-shadow: -1px -1px 3px #000, 1px -1px 3px #000, -1px 1px 3px #000, 1px 1px 3px #000; }
   .navbar-custom .navbar-brand {
     color: #f25757;
     font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive; }
@@ -195,14 +195,16 @@ header {
       font-style: italic;
       font-size: 22px;
       line-height: 22px;
-      margin-bottom: 25px; }
+      margin-bottom: 25px;
+      background-color: black; }
     header .intro-text .intro-heading {
       font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
       text-transform: uppercase;
       font-weight: 700;
       font-size: 50px;
       line-height: 50px;
-      margin-bottom: 25px; }
+      margin-bottom: 25px;
+      background-color: black; }
 
 @media (min-width: 768px) {
   header .intro-text {

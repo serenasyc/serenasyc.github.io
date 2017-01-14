@@ -88,10 +88,10 @@ h1, h2, h3, h4, h5, h6 {
     background-color: $gray-darker;
     border-color: transparent;
     text-shadow:
-    -1px -1px 2px #000,
-    1px -1px 2px #000,
-    -1px 1px 2px #000,
-    1px 1px 2px #000; 
+        -1px -1px 3px #000,
+        1px -1px 3px #000,
+        -1px 1px 3px #000,
+        1px 1px 3px #000; 
     .navbar-brand {
         color: $theme-primary;
         @include script-font;
@@ -194,6 +194,7 @@ header {
             font-size: 22px;
             line-height: 22px;
             margin-bottom: 25px;
+            background-color: black;
         }
         .intro-heading {
             @include heading-font;
@@ -201,6 +202,7 @@ header {
             font-size: 50px;
             line-height: 50px;
             margin-bottom: 25px;
+            background-color: black; 
         }
     }
 }
