@@ -1,0 +1,71 @@
+.intro{
+	text-align: center;
+}
+
+em {
+	color: red;
+}
+
+.row{
+      margin: auto;
+}
+.card {
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+  	text-align: center;
+  	margin-bottom: 50px;
+    min-width:25px;
+  	width: 250px;
+    min-height:35px;
+    height:300px;
+  	cursor: pointer;
+  }
+.number{
+	font-size: 100px;
+	line-height: 300px;
+}
+
+#red {
+	background: red;
+}
+
+#brown {
+	background: #8c4d01;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+.initiallyHidden { 
+  display: none; 
+}
+
+.msg {
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.answer{
+  background-color: green !important;
+  color: white;
+}
+.reset{
+  background-color: red;
+  color: white;
+}
+table {
+  width: 100%;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center !important; 
+    padding: 10px;
+}
