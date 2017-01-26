@@ -88,10 +88,10 @@ h1, h2, h3, h4, h5, h6 {
     background-color: $gray-darker;
     border-color: transparent;
     text-shadow:
-    -1px -1px 2px #000,
-    1px -1px 2px #000,
-    -1px 1px 2px #000,
-    1px 1px 2px #000; 
+        -1px -1px 3px #000,
+        1px -1px 3px #000,
+        -1px 1px 3px #000,
+        1px 1px 3px #000; 
     .navbar-brand {
         color: $theme-primary;
         @include script-font;
@@ -191,16 +191,18 @@ header {
         .intro-lead-in {
             @include serif-font;
             font-style: italic;
-            font-size: 22px;
-            line-height: 22px;
+            font-size: 100%;
+            line-height: 120%;
             margin-bottom: 25px;
+            background-color: black;
         }
         .intro-heading {
             @include heading-font;
             font-weight: 700;
-            font-size: 50px;
-            line-height: 50px;
+            font-size: 200%;
+            line-height: 120%;
             margin-bottom: 25px;
+            background-color: black; 
         }
     }
 }
@@ -551,7 +553,7 @@ section#contact {
     background-blend-mode: luminosity;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     .section-heading {
 	  	background-color: white; 
      }

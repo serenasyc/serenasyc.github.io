@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+	<title>Four-Card Problem</title>
+	<meta name="viewport" content-"width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="FCPstyle.css" >
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	    $("#three").click(function(){
+	        $("span").show().text("Does the rule include odd numbers?");
+	    });	
+	    $("#eight").click(function(){
+	        $("span").show().text("8 is an even number.");
+	    });
+	    $("#red").click(function(){
+	        $("span").show().text("Does the rule specify the number on the opposite face of a red card?");
+	    });		
+	    $("#brown").click(function(){
+	        $("span").show().text("If a card is not red, can we deduce what is on the opposite face?");
+	    });	
+	    $(".answer").click(function(){
+	    	$("span").hide();
+	    	$("#three").hide();
+	    	$("#red").hide();
+	    	$("#answercard").show();
+	    });
+	    $(".reset").click(function(){
+	    	$("span").hide();
+	    	$("#three").show();
+	    	$("#red").show();	
+	    	$("#answercard").hide();    
+	    });
+	});
+	</script>
+</head>
+<body>
+    <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+            <div class="rl">
+            </div>
+        </div>
+    </div>
+	<div class="container">
+		<div class="row intro">
+			<h1>The Four-Card Problem</h1>
+			<p>The Four-Card Problem, more commonly known as the Wason selection task, is a logic puzzle created by Peter Cathcart Wason in 1966. The problem is stated below.</p>
+			<p>You are shown the four cards below, each with a number on one side and a colour on the opposite side. I tell you that the cards follow this rule, <em>"If a card shows an even number, the opposide face is red."</em> Which card or cards do you need to flip to determine if this rule is true?</p>
+			<p class="text-muted">Click the cards for a hint</p>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="card col-sm-3 number" id="three">3</div>
+			<div class="card col-sm-3 number" id="eight">8</div>
+			<div class="card col-sm-3" id="red"></div>
+			<div class="card col-sm-3" id="brown"></div>
+			<div class="col-sm-6 initiallyHidden" id="answercard">
+				<p>In classical logic, we express the rule as an implication. The truth table of an implication is shown below</p>
+				<table>
+					<tr>
+						<th>p = "One face is even".</th>
+						<th>q = "The opposite face is red."</th>
+						<th>If p, then q.</th>
+					</tr>
+					<tr>
+						<td>True</td>
+						<td>True</td>
+						<td>True</td>
+					</tr>
+					<tr>
+						<td>True</td>
+						<td>False</td>
+						<td>False</td>
+					</tr>
+					<tr>
+						<td>False</td>
+						<td>True</td>
+						<td>True</td>
+					</tr>
+					<tr>
+						<td>False</td>
+						<td>False</td>
+						<td>True</td>
+					</tr>
+				</table>
+				<p>The rule is only false in the case where one face of the card is even while the opposite face is not red.</p>
+				<p>We flip over the 8 card because 8 is an even number.<br/>If the rule is true, the opposite face of the 8 card is red.</p>
+				<p>We also flip over the brown card.<br/>If the rule is true, the opposite face of the brown card cannot be even.</p>
+			</div>
+		</div>
+		<div class="row">
+			<center><span class="msg"></span></center>
+		</div>
+	</div>
+	<div class="container">
+		<center><button class="btn btn-xl answer">Show me the answer!</button> <button class="btn btn-xl reset">Reset</button></center>
+	</div>
+	<center>
+		<a href="https://serenasychan.github.io/#portfolio">Return to portfolio</a>
+	</center>
+</body>
+</html>
