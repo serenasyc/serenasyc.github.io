@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-custom {
   background-color: #222222;
   border-color: transparent;
-  text-shadow: -1px -1px 3px #000, 1px -1px 3px #000, -1px 1px 3px #000, 1px 1px 3px #000; }
+  text-shadow: 0px 0px 3px #000; }
   .navbar-custom .navbar-brand {
     color: #f25757;
     font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive; }
@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
     .navbar-custom.affix .navbar-brand {
       font-size: 1.5em; } }
 header {
-  background-image: url("../img/backgrounds/shoes_apple.jpg");
+  background-image: url("../img/backgrounds/airplane.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -188,15 +188,14 @@ header {
   color: white; }
   header .intro-text {
     padding-top: 100px;
-    padding-bottom: 50px;
-    text-shadow: 0px 0px 5px black; }
+    padding-bottom: 50px; }
     header .intro-text .intro-lead-in {
       font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-style: italic;
       font-size: 100%;
       line-height: 120%;
       margin-bottom: 25px;
-      background-color: black; }
+      background-color: rgba(0, 0, 0, 0.1); }
     header .intro-text .intro-heading {
       font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
       text-transform: uppercase;
@@ -204,7 +203,7 @@ header {
       font-size: 200%;
       line-height: 120%;
       margin-bottom: 25px;
-      background-color: black; }
+      background-color: rgba(0, 0, 0, 0.1); }
 
 @media (min-width: 768px) {
   header .intro-text {

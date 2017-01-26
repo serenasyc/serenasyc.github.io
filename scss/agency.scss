@@ -88,10 +88,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: $gray-darker;
     border-color: transparent;
     text-shadow:
-        -1px -1px 3px #000,
-        1px -1px 3px #000,
-        -1px 1px 3px #000,
-        1px 1px 3px #000; 
+        0px 0px 3px #000;
     .navbar-brand {
         color: $theme-primary;
         @include script-font;
@@ -176,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    background-image: url('../img/backgrounds/shoes_apple.jpg');
+    background-image: url('../img/backgrounds/airplane.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -187,14 +184,13 @@ header {
     .intro-text {
         padding-top: 100px;
         padding-bottom: 50px;
-        text-shadow: 0px 0px 5px black;
         .intro-lead-in {
             @include serif-font;
             font-style: italic;
             font-size: 100%;
             line-height: 120%;
             margin-bottom: 25px;
-            background-color: black;
+            background-color: rgba(0,0,0,0.1) ;
         }
         .intro-heading {
             @include heading-font;
@@ -202,7 +198,7 @@ header {
             font-size: 200%;
             line-height: 120%;
             margin-bottom: 25px;
-            background-color: black; 
+            background-color: rgba(0,0,0,0.1) ;
         }
     }
 }
